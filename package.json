@@ -9,9 +9,12 @@
   ],
   "license": "ISC",
   "author": "kartik",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon scr/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
