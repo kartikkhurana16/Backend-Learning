@@ -302,7 +302,6 @@ const updateUserCoverImage = asyncHandler(async(req,res)=>{
 })
 
 
-
 //pipeline for fetching the users channel data.
 const getUserChannelProfile=asyncHandler(async(req,res)=>{
     const {username}=req.params
@@ -367,7 +366,6 @@ const getUserChannelProfile=asyncHandler(async(req,res)=>{
         return res.status(200)
                     .json(new ApiResponse(200,channel,"user channel fetched successfully"))
 })
-
 
 //nested lookup
 const getWatchHistory= asyncHandler(async(req,res)=>{
